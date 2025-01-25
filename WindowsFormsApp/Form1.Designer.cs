@@ -29,7 +29,12 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
+            this.helpProvider1 = new System.Windows.Forms.HelpProvider();
             this.SuspendLayout();
+            // 
+            // helpProvider1
+            // 
+            this.helpProvider1.HelpNamespace = "C:\\Users\\Hugi\\Documents\\2025-2026\\project_windowsForms\\Sajat\\Ovari_Szilvia.html";
             // 
             // Form1
             // 
@@ -37,18 +42,22 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
-            this.ClientSize = new System.Drawing.Size(612, 450);
+            this.ClientSize = new System.Drawing.Size(606, 450);
+            this.HelpButton = true;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "Form1";
+            this.helpProvider1.SetShowHelp(this, true);
             this.Text = "Hugi panel";
-            this.Load += new System.EventHandler(this.Form1_Load);
+            this.HelpButtonClicked += new System.ComponentModel.CancelEventHandler(this.Form1_HelpButtonClicked);
             this.ResumeLayout(false);
 
         }
 
         #endregion
+
+        private System.Windows.Forms.HelpProvider helpProvider1;
     }
 }
 

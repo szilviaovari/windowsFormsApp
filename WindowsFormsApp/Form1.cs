@@ -17,9 +17,9 @@ namespace WindowsFormsApp
             InitializeComponent();
         }
 
-        private void Form1_Load(object sender, EventArgs e)
+        private void Form1_HelpButtonClicked(object sender, CancelEventArgs e)
         {
-
+            System.Diagnostics.Process.Start("C:\\Users\\Hugi\\Documents\\2025-2026\\project_windowsForms\\Sajat\\Ovari_Szilvia.html");
         }
     }
 }
