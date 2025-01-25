@@ -32,6 +32,7 @@
             this.helpProvider1 = new System.Windows.Forms.HelpProvider();
             this.nameUpdatebutton = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
+            this.nameSortbutton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // helpProvider1
@@ -64,6 +65,20 @@
             this.label1.TabIndex = 1;
             this.label1.Text = "Nevek:";
             // 
+            // nameSortbutton
+            // 
+            this.nameSortbutton.BackColor = System.Drawing.Color.RosyBrown;
+            this.nameSortbutton.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.nameSortbutton.Location = new System.Drawing.Point(50, 148);
+            this.nameSortbutton.Margin = new System.Windows.Forms.Padding(0);
+            this.nameSortbutton.Name = "nameSortbutton";
+            this.nameSortbutton.Padding = new System.Windows.Forms.Padding(5);
+            this.nameSortbutton.Size = new System.Drawing.Size(234, 51);
+            this.nameSortbutton.TabIndex = 2;
+            this.nameSortbutton.Text = "Nevek rendezése";
+            this.nameSortbutton.UseVisualStyleBackColor = false;
+            this.nameSortbutton.Click += new System.EventHandler(this.nameSortbutton_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -71,6 +86,7 @@
             this.BackColor = System.Drawing.Color.White;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(606, 450);
+            this.Controls.Add(this.nameSortbutton);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.nameUpdatebutton);
             this.HelpButton = true;
@@ -91,6 +107,7 @@
         private System.Windows.Forms.HelpProvider helpProvider1;
         private System.Windows.Forms.Button nameUpdatebutton;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button nameSortbutton;
     }
 }
 

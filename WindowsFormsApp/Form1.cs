@@ -32,7 +32,36 @@ namespace WindowsFormsApp
             if (File.Exists(filePath))
             {
                 string[] names = File.ReadAllLines(filePath);
+                label1.Text = "Nevek:\n";
+                bool hasValidNames = false;
+                for (int i = 0; i < names.Length; i++)
+                {
+                    if (!string.IsNullOrWhiteSpace(names[i]))
+                    {
+                        label1.Text += "\n" + names[i];
+                        hasValidNames = true;
+                    }
+                }
+                if (!hasValidNames)
+                {
+                    label1.Text = "Nincsenek nevek a fájlban.";
+                }
+            }
+            else
+            {
+                MessageBox.Show("A fájl nem található.");
+            }
+        }
+
+        private void nameSortbutton_Click(object sender, EventArgs e)
+        {
+            string filePath = "nevek.txt";
+
+            if (File.Exists(filePath))
+            {
+                string[] names = File.ReadAllLines(filePath);
                 Array.Sort(names);
+                File.WriteAllLines(filePath, names);
                 label1.Text = "Nevek:\n";
                 bool hasValidNames = false;
                 for (int i = 0; i < names.Length; i++)
