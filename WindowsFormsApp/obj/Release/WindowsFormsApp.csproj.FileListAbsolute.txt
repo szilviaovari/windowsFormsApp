@@ -1,0 +1,11 @@
+C:\Users\Hugi\Documents\2025-2026\project_windowsForms\WindowsFormsApp\bin\Release\WindowsFormsApp.exe.config
+C:\Users\Hugi\Documents\2025-2026\project_windowsForms\WindowsFormsApp\bin\Release\WindowsFormsApp.exe
+C:\Users\Hugi\Documents\2025-2026\project_windowsForms\WindowsFormsApp\bin\Release\WindowsFormsApp.pdb
+C:\Users\Hugi\Documents\2025-2026\project_windowsForms\WindowsFormsApp\obj\Release\WindowsFormsApp.csproj.AssemblyReference.cache
+C:\Users\Hugi\Documents\2025-2026\project_windowsForms\WindowsFormsApp\obj\Release\WindowsFormsApp.csproj.SuggestedBindingRedirects.cache
+C:\Users\Hugi\Documents\2025-2026\project_windowsForms\WindowsFormsApp\obj\Release\WindowsFormsApp.Form1.resources
+C:\Users\Hugi\Documents\2025-2026\project_windowsForms\WindowsFormsApp\obj\Release\WindowsFormsApp.Properties.Resources.resources
+C:\Users\Hugi\Documents\2025-2026\project_windowsForms\WindowsFormsApp\obj\Release\WindowsFormsApp.csproj.GenerateResource.cache
+C:\Users\Hugi\Documents\2025-2026\project_windowsForms\WindowsFormsApp\obj\Release\WindowsFormsApp.csproj.CoreCompileInputs.cache
+C:\Users\Hugi\Documents\2025-2026\project_windowsForms\WindowsFormsApp\obj\Release\WindowsFormsApp.exe
+C:\Users\Hugi\Documents\2025-2026\project_windowsForms\WindowsFormsApp\obj\Release\WindowsFormsApp.pdb
