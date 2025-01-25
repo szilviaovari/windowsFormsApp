@@ -32,7 +32,7 @@ namespace WindowsFormsApp
             if (File.Exists(filePath))
             {
                 string[] names = File.ReadAllLines(filePath);
-
+                Array.Sort(names);
                 label1.Text = "Nevek:\n";
                 bool hasValidNames = false;
                 for (int i = 0; i < names.Length; i++)
@@ -40,7 +40,7 @@ namespace WindowsFormsApp
                     if (!string.IsNullOrWhiteSpace(names[i]))
                     {
                         label1.Text += "\n" + names[i];
-                        hasValidNames = true; // Van érvényes név
+                        hasValidNames = true;
                     }
                 }
                 if (!hasValidNames)
