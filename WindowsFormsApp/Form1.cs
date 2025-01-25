@@ -22,7 +22,7 @@ namespace WindowsFormsApp
 
         private void Form1_HelpButtonClicked(object sender, CancelEventArgs e)
         {
-            System.Diagnostics.Process.Start("C:\\Users\\Hugi\\Documents\\2025-2026\\project_windowsForms\\Sajat\\Ovari_Szilvia.html");
+            System.Diagnostics.Process.Start("https://hu.wikipedia.org/wiki/Nyerd_meg_az_%C3%A9leted");
         }
 
         private void nameUpdatebutton_Click(object sender, EventArgs e)
