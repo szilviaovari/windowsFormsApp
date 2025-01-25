@@ -41,12 +41,12 @@
             // nameUpdatebutton
             // 
             this.nameUpdatebutton.BackColor = System.Drawing.Color.RosyBrown;
-            this.nameUpdatebutton.Font = new System.Drawing.Font("Modern No. 20", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.nameUpdatebutton.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.nameUpdatebutton.Location = new System.Drawing.Point(50, 41);
             this.nameUpdatebutton.Margin = new System.Windows.Forms.Padding(0);
             this.nameUpdatebutton.Name = "nameUpdatebutton";
             this.nameUpdatebutton.Padding = new System.Windows.Forms.Padding(5);
-            this.nameUpdatebutton.Size = new System.Drawing.Size(121, 39);
+            this.nameUpdatebutton.Size = new System.Drawing.Size(234, 51);
             this.nameUpdatebutton.TabIndex = 0;
             this.nameUpdatebutton.Text = "Nevek frissítése";
             this.nameUpdatebutton.UseVisualStyleBackColor = false;
@@ -56,11 +56,11 @@
             // 
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Font = new System.Drawing.Font("Modern No. 20", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(349, 53);
+            this.label1.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(350, 54);
             this.label1.Name = "label1";
             this.label1.Padding = new System.Windows.Forms.Padding(5);
-            this.label1.Size = new System.Drawing.Size(52, 25);
+            this.label1.Size = new System.Drawing.Size(70, 30);
             this.label1.TabIndex = 1;
             this.label1.Text = "Nevek:";
             // 
