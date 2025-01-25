@@ -34,9 +34,18 @@ namespace WindowsFormsApp
                 string[] names = File.ReadAllLines(filePath);
 
                 label1.Text = "Nevek:\n";
+                bool hasValidNames = false;
                 for (int i = 0; i < names.Length; i++)
                 {
-                    label1.Text += "\n" + names[i];
+                    if (!string.IsNullOrWhiteSpace(names[i]))
+                    {
+                        label1.Text += "\n" + names[i];
+                        hasValidNames = true; // Van érvényes név
+                    }
+                }
+                if (!hasValidNames)
+                {
+                    label1.Text = "Nincsenek nevek a fájlban.";
                 }
             }
             else
